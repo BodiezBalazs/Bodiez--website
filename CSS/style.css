@@ -346,6 +346,10 @@ img { /* more responsive images*/
 	animation-fill-mode: both;
 }
 
+#author_date{
+	color: #00000079;
+}
+
 #introtext{
 	font-size: 18px;
 }
