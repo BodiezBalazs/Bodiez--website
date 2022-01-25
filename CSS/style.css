@@ -52,7 +52,7 @@ img { /* more responsive images*/
 
 .navbar a{
 	text-decoration: none;
-	color: rgb(180, 180, 180);
+	color:#585858;
 	font-size: 18px;
 	}
 .navbar a:active {
