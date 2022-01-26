@@ -104,7 +104,8 @@ img { /* more responsive images*/
 	color: black;
 }
 .container img { /* 1,5:1 arányú a kép tehát a width-et kell elosztani 1,5-el hogy megkapd a height-ot és akkor nem lesz torzítás*/ 
-	height: 750px;
+	width: 927px;
+	height: 751px;
 	border-radius: 5px;
 	box-shadow: 10px 10px 7px 5px rgba(0,0,0, 0.5);
 	max-width: 100%;
