@@ -413,6 +413,28 @@ img { /* more responsive images*/
 	font-size: 20px;
 	text-decoration: none;
 }
+.answer-target{
+	font-weight: bold;
+	font-size: 17px;
+}
+.alcím{
+	font-size: 20px;
+	text-decoration: underline;
+}
+.alcím-bekezdés{
+	margin-left: 4%;
+}
+.kiemelés{
+	background-color:rgb(83, 83, 83);
+	color: #FFF;
+	font-size: 20px;
+	padding: 1%;
+}
+
+.makro {
+	position: relative;
+	display: flex;
+  }
 /* BLOGPOST (egyes bejegyzések) end */
 
 
@@ -718,6 +740,10 @@ summary::marker{
 	}
 	.blogtext img{
 		max-width: 60%;
+	}
+	.makro{
+		flex-direction: column;
+		max-width: 80%;
 	}
 }
 @media only screen and (max-width:800px){
