@@ -746,17 +746,6 @@ summary::marker{
 		flex-direction: column;
 		max-width: 80%;
 	}
-}
-@media only screen and (max-width:800px){
-	.blogtext img{
-		max-width: 100%;
-	}
-}
-@media only screen and (max-width: 540px){
-	.blogheadline{
-		flex-direction: column;
-		margin: 0 1% 0 1%;
-	}
 	.blogreco{
 		display: none;
 	}
@@ -769,6 +758,18 @@ summary::marker{
 		border-radius: 15px;
 		border: #64C2A2 2px solid;
 	}
+}
+@media only screen and (max-width:800px){
+	.blogtext img{
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 540px){
+	.blogheadline{
+		flex-direction: column;
+		margin: 0 1% 0 1%;
+	}
+
 
 	.blogtext{
 		margin:0 5% 0 5%!important;
