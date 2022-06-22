@@ -666,6 +666,9 @@ summary::marker{
 	.container-fluid img{
 		max-height: 65px;
 		}
+	.navbar{
+		margin-left: 0;
+		}
 /* CARDGROUP *********************************/
 	.card-group {
 		flex-direction: column;
@@ -932,6 +935,39 @@ summary::marker{
 		margin:0 3% 0 3%;
 	}
 }
+
+/*Fitness Fogalomtár Responsiveness******************************************************************************************************************/
+@media only screen and (max-width:1380px){
+	.fogalmak-container{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+@media only screen and (max-width:1200px){
+	.abc a{
+		padding-left: 1%;
+		padding-right: 1%;
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width:600px){
+	.fogalmak-container{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+@media only screen and (max-width:600px){
+	.abc{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.abc a{
+		padding-left: 5%;
+		padding-right: 5%;
+		font-size: 30px;
+	}
+}
+
 /*Responsinves end*/
 
 /*Footer szekció **********************************************************************************************************************************/
