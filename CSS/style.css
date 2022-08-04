@@ -450,7 +450,7 @@ img { /* more responsive images*/
 /* BLOGPOST (egyes bejegyzések) end */
 
 
-/* 8.BEJEGYZÉSEK PAGE **********************************************************************************************************************************/
+/* 8.BLOG PAGE **********************************************************************************************************************************/
 
 .recommendation_container {
 	margin: 0 20% 0 20%;
@@ -472,7 +472,7 @@ summary::marker{
 .edzéspostok{
 	display: flex;
 	margin-top: 5%;
-	background-color: rgb(245, 245, 245);
+	background-color: #e5f1ee;
 	padding: 3% 0 3% 2%;
 	border-radius: 20px;
 	box-shadow: 5px 7px 5px 2px rgba(0,0,0,0.5);
@@ -487,18 +487,17 @@ summary::marker{
 	margin-right: 3%;
 }
 .edzéspostok details{
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 .edzéspostok i{
-	color:#64C2A2;
+	color:#9ed6c3;
 }
 .edzéspostoklist{
 	display: flex;
 }
 .edzéspostoklist img{
 	display: flex;
-	max-width: 300px;
 }
 .edzéspostoklist a{
 	margin: 2% 2% 0 0;
@@ -508,10 +507,10 @@ summary::marker{
 
 .táplálkozáspostok{
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	margin-top: 5%;
-	background-color: #64c2a348;
-	padding: 3% 2% 3% 0;
+	background-color: #e5f1ee;
+	padding: 3% 0 3% 2%;
 	border-radius: 20px;
 	box-shadow: 5px 7px 5px 2px rgba(0,0,0,0.5);
 
@@ -523,7 +522,7 @@ summary::marker{
 	width: 500px;
 	max-height: 300px;
 	border-radius: 20%;
-	margin-left: 3%;
+	margin-right: 3%;
 }
 .táplálkozáspostok details{
 	margin-top: 5%;	
@@ -538,7 +537,7 @@ summary::marker{
 	margin: 2% 2% 0 0;
 }
 .táplálkozáspostok i{
-	color:#64C2A2;
+	color:#9ed6c3;
 }
 
 
@@ -546,7 +545,7 @@ summary::marker{
 	display: flex;
 	margin-top: 5%;
 	margin-bottom: 2%;
-	background-color: rgb(245, 245, 245);
+	background-color: #e5f1ee;
 	padding: 3% 0 3% 2%;
 	border-radius: 20px;
 	box-shadow: 5px 7px 5px 2px rgba(0,0,0,0.5);
@@ -574,10 +573,10 @@ summary::marker{
 	margin: 2% 2% 0 0;
 }
 .regenerációpostok i{
-	color:#64C2A2;
+	color:#9ed6c3;
 }
 
-/* BEJEGYZÉSEK PAGE end*/
+/* BLOG PAGE end*/
 
 /* 9.DIÉTA KALKULÁTOR***********************************************************************************************************************************/
 .calc-container{
